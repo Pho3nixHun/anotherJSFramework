@@ -1,0 +1,1 @@
+import Directive from 'app/pho3nix-test/index';
