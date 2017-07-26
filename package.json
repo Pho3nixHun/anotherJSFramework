@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "html-loader": "^0.4.5",
+    "http-server": "^0.10.0",
+    "webpack": "^3.4.0"
+  },
+  "name": "anotherjsframework",
+  "description": "Coming soon.... This just an experiment yet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^3.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "start": "concurrently \"webpack --watch\" \"http-server ./dist\" \"start http://localhost:8080\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pho3nixHun/anotherJSFramework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pho3nixHun/anotherJSFramework/issues"
+  },
+  "homepage": "https://github.com/Pho3nixHun/anotherJSFramework#readme"
+}
